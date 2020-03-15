@@ -26,12 +26,6 @@ public class Computer{
 		this.board = board;
 	}
 
-	@Override
-	public String toString() {
-		return "Computer [name=" + name + ", cpu=" + cpu + ", memory=" + memory + ", disk=" + disk + ", board=" + board
-				+ "]";
-	}
-
 	//¼ÆËã»úÃèÊö
 	public void computerDescription() {
 		System.out.println(cpu.toString());
